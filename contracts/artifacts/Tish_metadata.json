@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "address_2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "big_number",
 				"outputs": [
 					{
@@ -26,6 +39,19 @@
 						"internalType": "bytes32",
 						"name": "",
 						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "my_address",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -86,11 +112,11 @@
 	},
 	"sources": {
 		"contracts/2_variables_modifiers.sol": {
-			"keccak256": "0xd7029635d2cc7bb927a38f18079820218c14d3b43135f73be2599dba5f79d0d0",
+			"keccak256": "0x10254d69080b59501f7992fe905e34eac7e05625c91493a4e150abd25c86bf90",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2e5e93b94321ef9303ab96384d7657025985a0eb17258477dded97234c720be7",
-				"dweb:/ipfs/QmW2N9hhm4hP6bUXXL5ghXGF2cMN5nGUR1GLsYjbKYpnsj"
+				"bzz-raw://d38f21fa8c4219e7999b83867bb534f5283f1e9e542ef990ea0c835f12c91073",
+				"dweb:/ipfs/QmRYFAMg5MgHxwxZ7t5XMsPS4fRTRrqENbUc3LGhhtw9wD"
 			]
 		}
 	},

@@ -20,6 +20,20 @@ contract Tish{
     // Algorithmo de hash
     bytes32 public hashing = keccak256(abi.encodePacked("Hola"));
 
+    // Variables address
+    address address_1;
+    address public my_address = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+    address public address_2 = msg.sender;
+
+    // Variable de enumeracion
+    enum options {ON, OFF}
+    options state;
+    options constant defaultChoice = options.OFF;
+
+    function turnOn() public {
+        state = 
+    }
+
 
 
 }
