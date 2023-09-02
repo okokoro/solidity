@@ -33,6 +33,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "displayState",
+				"outputs": [
+					{
+						"internalType": "enum Tish.options",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "hashing",
 				"outputs": [
 					{
@@ -82,6 +95,20 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOff",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -112,11 +139,11 @@
 	},
 	"sources": {
 		"contracts/2_variables_modifiers.sol": {
-			"keccak256": "0x10254d69080b59501f7992fe905e34eac7e05625c91493a4e150abd25c86bf90",
+			"keccak256": "0x7a9a990e792e8c96a504b50c0a346d81cee3937762435ca6aecf1e75f1942237",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d38f21fa8c4219e7999b83867bb534f5283f1e9e542ef990ea0c835f12c91073",
-				"dweb:/ipfs/QmRYFAMg5MgHxwxZ7t5XMsPS4fRTRrqENbUc3LGhhtw9wD"
+				"bzz-raw://5e14869585d8de3b92eda9986fd07e0bb618035ab8030d457a5328cb5c17c6f7",
+				"dweb:/ipfs/QmXMFyP8ZE7Qh6xFnyvtoT2rjjpB9BYw6vDk42CF7GDZwa"
 			]
 		}
 	},

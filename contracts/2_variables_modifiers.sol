@@ -31,7 +31,15 @@ contract Tish{
     options constant defaultChoice = options.OFF;
 
     function turnOn() public {
-        state = 
+        state = options.ON;
+    }
+
+    function turnOff() public{
+        state = options.OFF;
+    }
+
+    function displayState() public view returns (options) {
+        return state;
     }
 
 
